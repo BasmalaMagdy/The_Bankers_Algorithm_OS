@@ -46,8 +46,11 @@ int main()
 		cout << endl;
 
 		//  get max array
+		max_flag = 1;
 		while (max_flag)
 		{
+			check_max = 0;
+			max.clear();
 			cout << "Max Matrix : " << endl;
 			for (int i = 0; i < n; i++)
 			{
